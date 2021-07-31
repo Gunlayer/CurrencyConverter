@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    width: 960px;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+body {
+    font-family: sans-serif;
+}
+.invisible {
+    display: none;
+}
+h1 {
+    margin-bottom: 30px;
+}
+.error-msg {
+    color: red;
+    padding: 0 10px 10px 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+#input {
+    padding:  10px;
+    display: flex;
+    align-items: center;
+}
+.input-box {
+    background-color: darkgray;
+}
+.currency-title {
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+}
+.selector {
+    padding: 5px;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    box-sizing: border-box;
+    height: 35px;
+
+}
+.input-form {
+    padding: 5px;
+    font-size: 20px;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+    border-left: 5px solid darkgray;
+    box-sizing: border-box;
+    height: 35px;    
+}
+.error {
+    border: 2px solid red;
+}
+.btn {
+    padding: 10px;
+    margin: 10px 0;
+    background-color: darkgray;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;        
+}
+.btn:hover {
+    background-color: grey;
+}

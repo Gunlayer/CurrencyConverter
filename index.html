@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Currensy Converter</title>
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Currensy Converter</h1>
+        <div class="input-box">
+            <p class="error-msg invisible">Input must be a number</p>
+            <form id="input">
+                <select id="in" class="selector">
+
+                </select>
+                <input type="text" maxlength="6" value="0" class="input-form" id="inputValue">
+            </form>
+        </div>
+        <div class="btn">SWAP</div>
+        <div class="input-box">
+            <form id="input">
+                <select id="out" class="selector">
+
+                </select>
+                <input type="text" maxlength="6" value="0" class="input-form" id="outputValue" disabled>
+            </form>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
